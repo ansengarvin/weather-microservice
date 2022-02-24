@@ -1,8 +1,11 @@
 INSTRUCTIONS FOR USE:
 1. Install the 'requests' module. You can do this by typing 'pip install requests' in Python.
-2. Write a 5-digit zip code into 'request.txt'. This service will erase it once it's been read.
-3. Wait for a response.
-4. Read weather report from response.txt, and erase once you've stored it.
+2. Run weather.py
+3. Write a 5-digit zip code into 'request.txt'. This service will erase it once it's been read.
+4. Wait for a response.
+5. Read weather report from response.txt, and erase once you've stored it.
+
+weather.py runs on an infinite loop, so terminate it once you're done using it.
 
 TROUBLESHOOTING:
 Problem: response.txt reads "ERROR: Invalid zip code."
