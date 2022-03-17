@@ -52,6 +52,7 @@ def get_weather_report_from_gps(latlong):
     forecast_request_json = forecast_request.json()
 
     detailed_forecast_afternoon = forecast_request_json["properties"]["periods"][0]["detailedForecast"]
+
     detailed_forecast_evening = forecast_request_json["properties"]["periods"][1]["detailedForecast"]
 
     combined_forecasts = "Forecast for the next 24 hours: " + detailed_forecast_afternoon + " Later: " + detailed_forecast_evening
