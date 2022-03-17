@@ -1,7 +1,5 @@
 # Name: Ansen D. Garvin
 # OSU Email: garvina@oregonstate.edu
-# Course: CS325 - Analysis of Algorithms
-# Release date: 2/23/2022
 # Patch: 1.0.0
 # Description: A weather microservice which returns a weather report from a zip code.
 # Sources: This program uses two external APIs. See readme.txt for more information.
