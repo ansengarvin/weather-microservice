@@ -1,7 +1,5 @@
 # Name: Ansen D. Garvin
 # OSU Email: garvina@oregonstate.edu
-# Course: CS325 - Analysis of Algorithms
-# Release date: 2/23/2022
 # Patch: 1.0.0
 # Description: A weather microservice which returns a weather report from a zip code.
 # Sources: This program uses two external APIs. See readme.txt for more information.
@@ -52,6 +50,7 @@ def get_weather_report_from_gps(latlong):
     forecast_request_json = forecast_request.json()
 
     detailed_forecast_afternoon = forecast_request_json["properties"]["periods"][0]["detailedForecast"]
+
     detailed_forecast_evening = forecast_request_json["properties"]["periods"][1]["detailedForecast"]
 
     combined_forecasts = "Forecast for the next 24 hours: " + detailed_forecast_afternoon + " Later: " + detailed_forecast_evening
